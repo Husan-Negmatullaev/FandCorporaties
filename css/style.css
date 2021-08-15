@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    height: 100vh;
+    background-image: url('../img/atlant.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+label {
+    color: #10447D;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Montserrat' !important;
+}
+
+input {
+    border: 0 !important;
+    font-family: 'Montserrat' !important;
+}
+
+.wrapper {
+    margin: 10px 10px;
+}
+
+.form-title {
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.border-round {
+    border-radius: 10px;
+}
+
+.btn {
+    margin: 10px 0;
+    background-color: #003989;
+    color: #ffffff;
+}
+
+.col-md-5 {
+    width: 48.666667% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin-top: 20%;
+    }
+    .input-groups {
+        display: flex;
+    }
+    #name {
+        width: 90%;
+    }
+}
